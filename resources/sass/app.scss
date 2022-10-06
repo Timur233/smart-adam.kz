@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-icons';
+@import 'bootstrap-customizer.scss';
+
+//Swiper
+@import "~swiper/swiper-bundle.css";
+
+body {
+    overflow-x: hidden
+}
+
+//components
+@import 'components/header.scss';
+@import 'components/promo.scss';
+@import 'components/sections.scss';
+@import 'components/tarifs.scss';
+@import 'components/services.scss';
+@import 'components/partners.scss';
+@import 'components/calc.scss';
+@import 'components/recomendation.scss';
+@import 'components/callback.scss';
+@import 'components/map.scss';
+@import 'components/footer.scss';

@@ -1,0 +1,46 @@
+.services {
+    &__item {
+    }
+}
+
+.service-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 76px 32px;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    color: #fff;
+    z-index: 1;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        opacity: .5;
+        z-index: -1;
+    }
+
+    &__title {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    &__desc {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

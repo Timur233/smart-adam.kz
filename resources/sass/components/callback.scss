@@ -1,0 +1,52 @@
+.callback {
+    position: relative;
+    z-index: 1;
+
+    &__body {
+        padding: 40px;
+        background-color: #6cb617;
+        color: #fff;
+        border-radius: 8px;
+    }
+
+    &__phone {
+        display: block;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    &__title {
+        font-size: 28px;
+    }
+
+    &__input {
+        border: none !important;
+        box-shadow: none !important;
+        background-color: #8EC84C !important;
+        color: #fff !important;
+        font-size: 15px;
+        height: 54px;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+
+    &__button {
+        height: 54px;
+        width: 100%;
+    }
+
+    & .input-group {
+        margin-bottom: 20px;
+
+        & .input-group-text {
+            background: #8ec84c;
+            border: none;
+            color: #fff;
+        }
+    }
+}

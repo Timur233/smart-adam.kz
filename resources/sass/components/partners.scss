@@ -1,0 +1,9 @@
+.partners {
+    & .swiper-wrapper {
+        align-items: center;
+    }
+
+    & .swiper-slide img {
+        max-width: 100%;
+    }
+}

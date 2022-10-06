@@ -1,0 +1,35 @@
+.section {
+    position: relative;
+    padding: 100px 0;
+
+    &--pb {
+        padding-top: 0;
+    }
+
+    &--pt {
+        padding-bottom: 0;
+    }
+
+    &--p-none {
+        padding: 0;
+    }
+
+    &__title-block {
+        margin-bottom: 40px;
+
+        &--center {
+            text-align: center;
+        }
+    }
+
+    &__title {
+        font-size: 32px;
+        font-weight: 800;
+    }
+}
+
+.separator {
+    & > svg {
+        max-width: 70px;
+    }
+}

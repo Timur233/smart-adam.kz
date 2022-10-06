@@ -1,0 +1,47 @@
+.calc {
+    &__body {
+        padding: 40px;
+        background-color: #6cb617;
+        color: #fff;
+        border-radius: 8px;
+    }
+
+    & .section__title-block {
+        margin-bottom: 20px;
+    }
+
+    & .section__title {
+        font-size: 28px;
+    }
+}
+
+.calc-form {
+    &__field {
+        font-size: 14px;
+
+        &--outline {
+            background: none !important;
+            color: #fff !important;
+            border-width: 2px;
+            box-shadow: none !important;
+            border-color: #fff !important;
+
+            &::placeholder {
+                color: #fff;
+            }
+        }
+    }
+
+    &__label {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    &__button {
+        width: 100%;
+    }
+
+    &__group {
+        margin-bottom: 24px;
+    }
+}
